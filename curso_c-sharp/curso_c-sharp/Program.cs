@@ -6,6 +6,8 @@ namespace curso_c_sharp
     {
         static void Main(string[] args)
         {
+            // AULA 3
+
             //Declaração de variáveis e formas de declarar
             long i = 123;
             double d = 1111.111;
