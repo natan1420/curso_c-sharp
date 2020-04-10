@@ -6,7 +6,7 @@ namespace curso_c_sharp
     {
         static void Main(string[] args)
         {
-            // AULA 2 - TIPOS DE VARIÁVEIS E CONVERSÕES TESTE 2
+            // AULA 3
 
             //Declaração de variáveis e formas de declarar
             long i = 123;
