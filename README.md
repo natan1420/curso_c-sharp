@@ -1,2 +1,5 @@
-# curso_c-sharp
- Curso do Torne-se um Programador (Didox) de C#
+# Curso de C#
+ 
+ Curso do Torne-se um Programador (@Didox) de C#
+ 
+ As Branches corresponderam as aulas feitas durante o curso
