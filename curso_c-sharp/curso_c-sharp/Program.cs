@@ -124,15 +124,61 @@ namespace curso_c_sharp
             Console.WriteLine("\n----------------------- LOOP -----------------------------\n");
 
 
+            /*
+             Loop:
+             - While
+             - Do While
+             - for
+             - for each
+             - Funções Recursivas
+              
+             */
+
+            // Loop - While
+            Console.WriteLine("\n----------------------- While\n");
+
+            int j = 5;
+
+            while(j>=0)
+            {
+                Console.WriteLine(j);
+                j--;
+            }
+
+
+            // Loop - While
+            Console.WriteLine("\n----------------------- Função Recursiva\n");
+
+            Console.WriteLine("\n\nTabuada:");
 
 
 
+            Tabuada(20);
+
+            
+        }
 
 
+        /// <summary>
+        /// Essa é a descrição dessa bodega
+        /// </summary>
+        /// <param name="x">Número da taboada</param>
+        /// <param name="y">A tabuada vai até o número 10 por padrão</param>
+        /// <returns></returns>
+        /// 
 
+        public static void Tabuada (int x, int y=0)
+        {
+            Console.WriteLine(x + " x " + y + " = " + x*y);
 
+            if (y == 10) return;
 
+            Tabuada(x, y + 1);
 
         }
+
+
+
+
     }
 }
