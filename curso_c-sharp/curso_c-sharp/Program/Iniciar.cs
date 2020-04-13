@@ -20,11 +20,9 @@ namespace PastaFunções
 
             while (opçao != SAIR)
             {
-                Console.WriteLine("Escolha uma das opções:z\n" +
+                Console.WriteLine("Escolha uma das opções:\n" +
                     "   1 - Média\n" +
                     "   2 - Moda\n" +
-                    "   3 - Desvio Padrão\n" +
-                    "   4 - Calcular fatorial\n" +
                     "   0 - SAIR\n" +
                     "------------------------------------------");
 
@@ -35,10 +33,6 @@ namespace PastaFunções
                     Matematica.Media();
                 else if (opçao == MODA)
                     Matematica.Moda();
-                else if (opçao == DESVIO_PADRAO)
-                    Matematica.DesvioPadrao();
-                else if (opçao == FATORIAL)
-                    Matematica.Fatorial();
                 else if (opçao == SAIR)
                 {
                     Console.Clear();
